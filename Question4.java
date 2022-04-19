@@ -18,6 +18,16 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    int base = input.nextInt();
+
+    // Rows
+    for (int i = base; i > 0; i--) {
+      // Print number of * in one row
+      for (int y = i; y > 0; y--) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
     
   }
 }
